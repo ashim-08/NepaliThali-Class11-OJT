@@ -1,0 +1,13 @@
+{
+    "builds":[
+    {"src": "./sercer.js",
+    "use": "@versel/node"
+}   
+],
+"routes": [
+    {
+        "src": "/(.*)",
+        "dest": "/server.js"
+    }
+]
+}
